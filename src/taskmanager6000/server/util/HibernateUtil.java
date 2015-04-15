@@ -1,4 +1,4 @@
-package sk.foundation.taskmanager.server.util;
+package taskmanager6000.server.util;
 
 import org.hibernate.HibernateException;
 import org.hibernate.Session;

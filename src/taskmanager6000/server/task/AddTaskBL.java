@@ -1,4 +1,4 @@
-package sk.foundation.taskmanager.server.task;
+package taskmanager6000.server.task;
 
 import java.util.Map;
 
@@ -6,10 +6,10 @@ import org.apache.log4j.Logger;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import sk.foundation.taskmanager.client.util.InvalidRequestParameterException;
-import sk.foundation.taskmanager.client.util.ParameterHelper;
-import sk.foundation.taskmanager.server.entity.TaskDAO;
-import sk.foundation.taskmanager.server.util.HibernateUtil;
+import taskmanager6000.client.util.InvalidRequestParameterException;
+import taskmanager6000.client.util.ParameterHelper;
+import taskmanager6000.server.entity.TaskDAO;
+import taskmanager6000.server.util.HibernateUtil;
 
 public class AddTaskBL {
 	private static final Logger log = Logger.getLogger(AddTaskBL.class);

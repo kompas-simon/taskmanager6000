@@ -9,7 +9,7 @@
   </session-config>
   <servlet>
     <servlet-name>InitHSQLDatabase</servlet-name>
-    <servlet-class>sk.foundation.taskmanager.server.util.InitHSQLDatabase</servlet-class>
+    <servlet-class>taskmanager6000.server.util.InitHSQLDatabase</servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>
 </web-app>

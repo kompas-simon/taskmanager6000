@@ -1,4 +1,4 @@
-package sk.foundation.taskmanager.server.entity;
+package taskmanager6000.server.entity;
 
 import java.util.HashSet;
 import java.util.Set;

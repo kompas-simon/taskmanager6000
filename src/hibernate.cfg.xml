@@ -27,7 +27,7 @@
         <property name="show_sql">true</property>
         
         <!-- Mapping files -->
-   		<mapping class="sk.foundation.taskmanager.server.entity.TaskDAO"/>
-   		<mapping class="sk.foundation.taskmanager.server.entity.ProjectDAO"/>
+   		<mapping class="taskmanager6000.server.entity.TaskDAO"/>
+   		<mapping class="taskmanager6000.server.entity.ProjectDAO"/>
     </session-factory>
 </hibernate-configuration>

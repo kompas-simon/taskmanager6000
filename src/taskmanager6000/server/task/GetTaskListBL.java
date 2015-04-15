@@ -1,4 +1,4 @@
-package sk.foundation.taskmanager.server.task;
+package taskmanager6000.server.task;
 
 import java.util.HashMap;
 import java.util.List;
@@ -12,10 +12,10 @@ import org.hibernate.criterion.MatchMode;
 import org.hibernate.criterion.Projections;
 import org.hibernate.criterion.Restrictions;
 
-import sk.foundation.taskmanager.client.util.InvalidRequestParameterException;
-import sk.foundation.taskmanager.client.util.ParameterHelper;
-import sk.foundation.taskmanager.server.entity.TaskDAO;
-import sk.foundation.taskmanager.server.util.HibernateUtil;
+import taskmanager6000.client.util.InvalidRequestParameterException;
+import taskmanager6000.client.util.ParameterHelper;
+import taskmanager6000.server.entity.TaskDAO;
+import taskmanager6000.server.util.HibernateUtil;
 
 public class GetTaskListBL {
 	private static final Logger log = Logger.getLogger(GetTaskListBL.class);

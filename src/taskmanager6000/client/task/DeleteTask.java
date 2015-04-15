@@ -1,4 +1,4 @@
-package sk.foundation.taskmanager.client.task;
+package taskmanager6000.client.task;
 
 import java.io.IOException;
 
@@ -8,8 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import sk.foundation.taskmanager.server.entity.TaskDAO;
-import sk.foundation.taskmanager.server.task.UpdateTaskBL;
+import taskmanager6000.server.entity.TaskDAO;
+import taskmanager6000.server.task.UpdateTaskBL;
 
 import com.google.gson.Gson;
 

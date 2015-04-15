@@ -1,4 +1,4 @@
-package sk.foundation.taskmanager.client.util;
+package taskmanager6000.client.util;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;

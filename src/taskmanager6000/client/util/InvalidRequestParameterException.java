@@ -1,4 +1,4 @@
-package sk.foundation.taskmanager.client.util;
+package taskmanager6000.client.util;
 
 public class InvalidRequestParameterException extends Exception{
 	private static final long serialVersionUID = 1L;

@@ -44,7 +44,7 @@
     </layout>	    
   </appender>
   
-  <category name="sk.foundation.taskmanager">
+  <category name="taskmanager6000">
       <appender-ref ref="APP"/>
   </category>
 
