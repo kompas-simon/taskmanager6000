@@ -1,0 +1,296 @@
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, body{
+	font-family: "Helvetica", "Arial", "sans-serif" !important;
+}
+
+h1 {
+	text-align: center;
+}
+
+.h1 {
+	font-weight: bold !important;
+}
+
+h2 {
+	text-align: left;
+}
+
+body {
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0 !important;
+	padding-left: 10px !important;
+}
+
+#centered-wrapper {
+	max-width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.alert {
+	display: none;
+}
+
+.outerContainer {
+	overflow: hidden;
+	display: table;
+	width: 100%
+}
+
+.innerContainer {
+	margin: 0 auto;
+    display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+
+#header {
+	height: 80px;
+}
+
+#filter-wrapper {
+	border-top: 1px solid black;
+	border-bottom: 1px dotted black;
+}
+
+#filter-task_type-container {
+	width: 180px !important;
+}
+
+#filter-button, #new_task-button  {
+	padding: 5px 8px 5px 8px !important;
+	margin: 4px 0px 5px 0px !important;
+	background-color: #eee;
+}
+
+#filter-desc-container {
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#filter-desc {
+	resize: none;
+}
+
+#filter-button:hover, #filter-button:focus {
+	background-color: #0099CC;
+}
+
+#filter-task_type-list {
+}
+
+.task-type-item {	
+}
+
+#task-type-TRASH a {
+	color: #B3B3B3 !important;
+}
+
+#task-type-TRASH a:hover {
+	color: Gray !important;
+}
+
+.task-type-item .badge{
+	margin-right: 5px;
+	margin-left: 10px;
+	float: right;
+}
+
+.task-type-enabled {
+	font-weight: bold;
+}
+
+#task-list-container {
+	border-top: 1px dotted black;
+	border-bottom: 1px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: block;
+}
+
+#task-list {
+}
+
+.task-item {	
+}
+
+.task-disabled {	
+}
+
+.task-disabled {	
+}
+
+#no-task-found {
+	text-align: center;	
+	font-weight: bold;
+}
+
+.enabled-task {
+	background-color: #FFFFB2 !important;
+}
+
+.picker {
+	padding-left: 5px;
+	padding-right: 25px;
+	padding-bottom: 5px;
+}
+
+.date-op-select-container {
+	padding-bottom: 5px;
+	min-width: 70px;
+}
+
+.date-op-select {
+	
+}
+
+#sorter-wrapper {
+}
+
+#sorter-wrapper div {
+	width: 24%;
+}
+
+#sorter-gap {
+	width: 200px !important;
+}
+
+#sorter-icon-container, #filter-icon-container, #new_task-button-container {
+	height: 100px !important;
+	width: 100px !important;
+	float: right !important;
+	margin-right: 10px !important;
+}
+
+#footer {
+	height: 40px;
+	text-align: center;
+}
+
+.active-sorter {
+	font-weight: bold;
+}
+
+.desc-textarea {
+	resize: none;
+	color: black;
+	background-color: #eee;
+}
+
+.enabled-area-wrapper {
+	background-color: #FFFFFF;
+}
+
+#new-task-container {
+	border-top: 1px solid black;
+	padding: 10px 0px 5px 10px;
+}
+
+#desc-new_task-container {
+	width: 60%;
+	padding-right: 25px;
+}
+
+#desc-new_task {
+	resize: none;
+}
+
+#due_date-new_task-container {
+	width: auto;
+	padding-right: 25px;
+}
+
+#new_task-button:hover, #new_task-button:focus {
+	background-color: #70DB70;
+}
+
+#loading-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* glyphicons */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px 5px 10px 0px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  20px; }
+.right-addon input { padding-right: 20px; }
+/* glyphicons */
+
+
+
+.task-resolution-container {
+}
+
+.task-desc-container {
+}
+
+.task-resolutionDate {
+	float: right;
+}
+
+.task-checkbox-done {
+	width: 54px;
+	height: 54px;
+	margin: 0 !important;
+}
+
+.task-dueDate-container {
+}
+
+.task-delete-container {
+}
+
+.delete-task {
+	padding: 0 !important;
+}
+
+.delete-task:hover, .delete-task:focus {
+	background-color: #FF8282 !important;
+}
+
+.task-save-container {
+}
+
+.changed .save-task {
+	background-color: #70DB70;
+}
+
+.changed .cancel-task {
+	background-color: #FF8282;
+}
+
+.save-task {
+	padding: 2px 4px !important;
+}
+
+.cancel-task {
+	margin-top: 5px;
+	padding: 2px 4px !important;
+}
+
+.save-task:hover, .save-task:focus {
+	background-color: #009933 !important;
+}
+
+.cancel-task:hover, .cancel-task:focus {
+	background-color: #FF0000 !important;
+}
